@@ -93,9 +93,6 @@
   "license": "MIT",
   "main": "public",
   "name": "graphql-upload",
-  "peerDependencies": {
-    "graphql": "0.13.1 - 15"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaydenseric/graphql-upload.git"
