@@ -1,21 +1,5 @@
 # graphql-upload changelog
 
-## Next
-
-### Major
-
-- Updated Node.js support to `^10.17.0 || ^12.0.0 || >= 13.7.0`, to meet the requirements for updated dev dependencies.
-- Updated dev dependencies, some of which require newer Node.js versions than previously supported.
-
-### Patch
-
-- Updated dependencies.
-- Lint fixes for the updated Prettier version.
-- Removed Node.js v13 and added v15 to the versions tested in GitHub Actions CI.
-- Simplified the GitHub Actions CI config with the [`npm install-test`](https://docs.npmjs.com/cli/v7/commands/npm-install-test) command.
-- Removed `npm-debug.log` from the `.gitignore` file as npm [v4.2.0](https://github.com/npm/npm/releases/tag/v4.2.0)+ doesn’t create it in the current working directory.
-- Updated the EditorConfig URL.
-
 ## 11.0.0
 
 ### Major
